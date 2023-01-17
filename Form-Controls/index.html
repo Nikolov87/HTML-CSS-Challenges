@@ -15,13 +15,36 @@
   <main>
   <form>
     <!-- write your html here-->
+    <form>
+      <label for="name">What is your name?</label>
+      <input type="text" id="name" name="name" required minlength="2">
+      <label for="email">What is your email?</label>
+      <input type="email" id="email" name="email" required>
+      <label for="color">What color t-shirt would you like?</label>
+      <select id="color" name="color" required>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <label for="size">What size t-shirt would you like?</label>
+      <select id="size" name="size" required>
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+      <label for="delivery">When would you like your t-shirt delivered?</label>
+      <input type="date" id="delivery" name="delivery" required min="2022-02-01" max="2023-03-01">
+      <input type="submit" value="Submit">
     <!-- try writing out the requirements first-->
   </form>
 
   </main>
   <footer>
     <!-- change to your name-->
-    <h2>By HOMEWORK SOLUTION</h2>
+    <h2>Petar Nikolov😜</h2>
   </footer>
 </body>
 
